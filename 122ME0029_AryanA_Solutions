@@ -1,0 +1,15 @@
+Q1- ['banana', 'apple', 'strawberry']
+Q2- [10,30,50,70,90]
+Q3- ['Tomato', 'Strawberry', 'Grapes']
+Q4- [10,30,50,70,90]
+Q5- 11, 59
+Q6- 2
+Q7- def Anagram(a,b):
+
+    for i in a:
+        flag=1
+        if i in b:
+            flag=0
+        if flag==1:
+            return False
+    return True
